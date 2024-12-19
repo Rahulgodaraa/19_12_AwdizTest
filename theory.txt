@@ -1,0 +1,247 @@
+
+HTML questions:
+
+1 differences between html4 and html5:
+- semantic elements added (nav, header)
+- simpler doctype declaration
+- native audio/video support
+
+2 purpose of doctype:
+- declares html version
+- triggers standards mode
+- ensures proper rendering
+
+3 semantic html importance:
+- better accessibility
+- improves seo
+- clearer code structure
+
+4 section vs article vs div:
+- section groups related content
+- article is self-contained
+- div for styling only
+
+5 span vs div differences:
+- span is inline
+- div is block-level
+- span for small text portions
+
+6 global attributes:
+- class, id, style
+- data-* attributes
+- title, lang
+
+7 meta tag purpose:
+- defines metadata
+- specifies character encoding
+- sets viewport properties
+
+8 input button vs button:
+- input is self-closing
+- button can contain content
+- button more styleable
+
+9 mobile-friendly html:
+- viewport meta tag
+- responsive images
+- touch-friendly sizing
+
+10 picture element role:
+- responsive images
+- art direction
+- multiple image sources
+
+11 specify html language:
+- lang attribute in html tag
+- hreflang for links
+- content-language meta
+
+12 id vs class:
+- id must be unique
+- class can be reused
+- id has higher importants
+
+13 html list types:
+- ordered (ol)
+- unordered (ul)
+- description (dl)
+
+14 iframe usage:
+- embed external content
+
+
+15 form element:
+- collects user input
+- submits data
+- groups form controls
+
+16 label purpose:
+- associates with inputs
+
+  
+18 inline vs block:
+- inline flows with text
+- block starts new line
+- inline-block combines both
+
+19 link vs a tags:
+- link for resources
+- a for navigation
+- link in head section
+ 
+CSS Questions:
+
+1 positioning types:
+- relative to normal flow
+- absolute to parent
+- fixed to viewport
+- sticky combines fixed/relative
+
+2 box model:
+- content, padding
+- border, margin
+- box-sizing property
+
+3 z-index:
+- controls stacking order
+- needs positioning
+- creates stacking context
+
+ 
+
+5 em vs rem vs px:
+- em relative to parent
+- rem relative to root
+- px fixed size
+
+ 
+9 flexbox:
+- flexible sizing
+- easy to alignment 
+
+10 relative vs absolute:
+- relative keeps space
+- absolute removes from flow
+- positioning context differs
+
+11 grid vs flexbox:
+- grid: 2d layout
+- flexbox: 1d layout
+- different use cases
+
+12 media queries:
+- responsive design
+- device targeting
+ 
+
+13 style types:
+- inline styles
+- internal stylesheet
+- external stylesheet
+
+ 
+ 
+ 
+
+17. css vs preprocessor variables:
+- css variables work in runtime
+- sass variables compile to static values
+- css variables can be changed with javascript
+
+18. optimize css performance:
+- minify and compress files
+- use specific selectors
+- avoid expensive properties like box-shadow
+ 
+
+20. nth-child vs nth-of-type:
+- nth-child counts all elements
+- nth-of-type counts specific element types
+- different results with mixed element types
+
+JavaScript Questions:
+
+1 var vs let vs const:
+- var is function scoped
+- let is block scoped
+- const can't be reassigned
+
+2 closures:
+- functions with access to outer scope
+- maintains access to variables
+- used for data privacy
+
+3 this keyword:
+- refers to current execution context
+- changes based on how function is called
+ 
+
+4 == vs ===:
+- == checks value only
+- === checks value and type
+- === is more strict
+
+5. promises/async/await:
+- handle asynchronous operations
+- avoid callback hell
+- cleaner async code syntax
+
+6. iife:
+- immediately executed
+- creates private scope
+- avoids global namespace pollution
+
+7. arrow functions:
+- shorter syntax 
+- syntax : const funname = (parameter) => {code body}
+- can't be used as constructors
+
+8. null vs undefined:
+- null is assigned explicitly
+- undefined is default value
+- typeof behavior differs
+
+9. event loop:
+- manages async operations
+- handles call stack
+- processes message queue
+
+10. sync vs async:
+- sync code runs sequentially
+- async code runs in background
+- async doesn't block execution
+
+11. javascript scopes:
+- global scope accessible everywhere
+- function scope within functions
+- block scope within blocks
+
+12. hoisting:
+- declarations moved to top
+- only declarations, not initializations
+ 
+13. javascript modules:
+- organize set of reuable code
+- control access with export/import
+ 
+
+ 
+15. higher-order functions:
+- take functions as arguments
+- return functions
+ 
+16. error handling:
+- using try , catch blocks 
+- throw custom errors
+
+
+18. fetch api:
+- returns promises
+- handles http requests
+
+
+
+20 dom:
+- represents html as objects
+- manipulate page content
+- handle events and updates
